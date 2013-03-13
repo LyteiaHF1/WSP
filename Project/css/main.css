@@ -7,3 +7,18 @@ html, body, div, h1, h2, h3, h4, h5, h6, p{
  margin: 0;
  padding: 0; 
 }
+
+html{
+font: .8125em/1 verdana, arial, sans-serif;
+}
+
+#wrapper{ 
+margin: 0 auto;
+width: 100%;
+margin: 0.520833%/*5px*/;
+padding: 0.520833%/*5px*/;
+}
+
+h1, h2, h3{
+text-align: left;
+}
