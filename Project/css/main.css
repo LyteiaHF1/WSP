@@ -18,8 +18,52 @@ width: 100%;
 margin: 0.520833%/*5px*/;
 padding: 0.520833%/*5px*/;
 }
+/*--- Content ---*/
 
 h1, h2, h3{
 text-align: left;
 }
+
+li{
+list-style-type: none;
+}
+
+
+/*--- form ---*/
+/*form label{
+display: block;
+margin-right: 20.83333%;/*20px;
+float: left;
+text-align: right;
+width: 8.333333%;/*80px;
+}
+
+form input, form select, form textarea{
+width: 73.285199%;/*554px;
+padding: 0.361011%;/*2px;
+margin-bottom: 2.083333%;/*20px;
+background: #fefefe;
+border-left: 0.077em solid #aaa;
+border-top: 0.077em solid #aaa;
+border-right: 0.077em solid #ddd;
+border-bottom: 0.077em solid #ddd;
+font-family: Verdana, sans-serif;
+font-size: .9em;*/
+}
+
+
+
+
+/*----- Media Queries -----*/
+
+/* Tablet Portrait size to standard 960 (device and browsers)*/
+@media screen and (min-width:768px) and (max-width:959px){
+
+
+/* Mobile Landscape size to Tablet Portrait (device and browsers)*/
+@media only screen and (min-width:480px)and (max-width:767px){
+
+
+/* Mobile Portrait size to Mobile Landscape (device and browsers)*/
+@media only screen and (max-width:479px){
 
