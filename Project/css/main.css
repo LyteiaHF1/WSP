@@ -36,10 +36,10 @@ display: block;
 float: left;
 }
 
-input, select, textarea{ 
+/*input, select, textarea{ 
 margin:0; 
 padding:0;   
-}
+}*/
 
 /*----- Media Queries -----*/
 
