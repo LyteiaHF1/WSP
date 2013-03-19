@@ -27,63 +27,82 @@ padding: 0.520833%/*5px*/;
 header{
 overflow: hidden;
 width: 100%;
-margin: 0 0 2.083333% 0;
-padding: 2.2em 0 0.95em 0;
-background: #232323 url('../images/header.jpg') no-repeat;
-border-bottom: 0.077em solid #ccc;
+background-color:#F0EAD6;
+/*margin: 0 0 2.083333% 0;*/
+/*padding: 2.2em 0 0.95em 0;*/
 }
 
 #logo{
-float: left;
-text-indent: -999999px;
+background-color:#F0EAD6;
 }
 
 /*----- Navigation -----*/
 
 #nav ul{
-margin:/*25.4166666666667%*/244px /*0.208333%*/2px 0;
-border-top:solid 1em #000;
-height:100%;
+/*margin:244px 2px 0;*/
+/*height:100%;*/
 overflow:hidden;
-color:#000000;
-background-color:#E8E8E8;
+color:#8C001A;
+background-color:#91614E;
+border:#F0EAD6;
 }
 
 #nav ul li{
 float: left;
-width: 10%;/*100px;*/
-font:bold 0.846em/2.308em/*11px/30px*/ Verdana, Arial, Helvetica, sans-serif;
+margin: 4px;
 text-transform:uppercase;
-padding:0 3%;/*34px;*/
+padding: 4px;
 }
 
 #nav ul li a{
 text-decoration:none;
-color:#000000;
+color:#F6FBFC;
 display:block;
 height:3.125%;/*30px*/
 line-height:2.308em;
 }
 
 #nav ul li a:hover{ 
-color:#000000;
-background:#f5ee30;
+color:#8C001A;
 }
 
 #nav ul li a.active{
-color:#f5ee30;
+color:#8C001A;
 }
 
 /*--- Content ---*/
 
-h1, h2, h3{
+h1, h2, h3, h4, h5, h6, p{
 text-align: left;
+margin:1em;
+margin-bottom:1em;
 }
 
 li{
 list-style-type: none;
 }
 
+aside div{
+width:200px;
+margin:5px;
+padding:5px;
+background-color:#91614E;
+border:#F0EAD6;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.main_action{
+float: right;
+}
+
+.main_action a{
+}
+
+.info{
+clear: right;
+float: left;
+}
 
 /*--- form ---*/
 
@@ -96,6 +115,14 @@ float: left;
 margin:0; 
 padding:0;   
 }*/
+
+footer{
+clear: both;
+padding-bottom: 1.041667%; /*10px;*/
+font-size: .9em;
+text-align: center;
+background-color:#F0EAD6;
+}
 
 /*----- Media Queries -----*/
 
