@@ -9,6 +9,8 @@ html, body, div, h1, h2, h3, h4, h5, h6, p{
 }
 
 html{
+max-width: 960px;
+margin:2.083333%/*20px*/ auto;
 font: .8125em/1 verdana, arial, sans-serif;
 }
 
