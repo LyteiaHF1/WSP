@@ -15,9 +15,9 @@
 				<nav id="nav">
 					<ul><li><a href="index.html">Home</a></li>
 						<li><a href="installationservices.html">Installation Services</a></li>
-						<li><a href="vehicle.html">Vehicle Gallery</a></li>
-						<li><a href="illuminatedsign.html">Illuminated Sign Gallery</a></li>
-						<li><a href="nonilluminated.html">Non Illuminated Sign Gallery</a></li>
+						<li><a href="vehicle.html">Gallery</a></li>
+						<li><a href="illuminatedsign.html">Illuminated Sign</a></li>
+						<li><a href="nonilluminated.html">Non Illuminated Sign</a></li>
 						<li><a href="form.html">Contact</a></li>
 					</ul>
 				</nav>
@@ -28,7 +28,7 @@
 <div> <!-- Form -->
 	<fieldset>
 <div class="form_container">
-						<h3>Let us know what you need</h3>
+						<h3>Let Us Know Who You Are</h3>
 								<div>
 									<label for=firstName>First Name</label>
 									<input name="firstName" placeholder="First Name" required>
@@ -48,10 +48,6 @@
 										<div>
 											<label for=number>Number</label>
 											<input type="number" name="number" placeholder="7784435624"required/>
-										</div>
-										<div>
-											<label for="intrest">Interest</label>
-											<textarea id="intrest" name="intrest"></textarea>	
 										</div>
 										<div>		
 											<label for="city">City</label>
@@ -113,10 +109,35 @@
     										<option value="WY">Wyoming</option>
     									</select>
     								</div>
+    							</fieldset>
+    							<fieldset>
+    							<h3>Let us know what you need</h3>
     								<div>
-    									<label for="artwork">Upload Artwork</label>
-    									<input type="file" id="artwork" name="artwork">
-    									</div>
+											<select name="mydropdown">
+											<option value="Vehicle">VINYL AND DIGITAL</option>
+											<option value="Vehicle">VEHICLE WRAPS</option>
+											<option value="Non Illuminated">A FRAME SIGNS</option>
+											<option value="Non Illuminated">BANNER</option>
+											<option value="Non Illuminated">BUILDING SIGNS</option>
+											<option value="Non Illuminated">CONSTRUCTION SIGN</option>
+											<option value="Non Illuminated">DIMENSIONAL LETTERS</option>
+											<option value="Non Illuminated">MAGNETS</option>
+											<option value="Non Illuminated">MONUMENT SIGNS</option>
+											<option value="Non Illuminated">REALTOR SIGNS</option>
+											<option value="Non Illuminated">SANDBLASTED</option>
+											<option value="Non Illuminated">STREET SIGNS</option>
+											<option value="Illuminated Sign">YARD SIGNS</option>
+											<option value="Illuminated Sign">CABINET</option>
+											<option value="Illuminated Sign">NEON/LED</option>
+											<option value="Illuminated Sign">CHANNEL LETTER</option>
+											<option value="Illuminated Sign">MARQUEE</option>
+											<option value="Illuminated Sign">DELIVERY SIGNS</option>
+											</select>
+										</div>
+    									<div>
+    										<label for="artwork">Upload Artwork</label>
+    										<input type="file" id="artwork" name="artwork">
+    										</div>
     									<div>
 										<input type="submit" value="Submit" name="Submit" />
 										</div>	
