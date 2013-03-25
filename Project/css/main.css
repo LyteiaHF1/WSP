@@ -2,122 +2,153 @@
 		Reset
 ------------------------------------------------------- */
 
+	html, body, div, h1, h2, h3, h4, h5, h6, p{
+ 	margin: 0;
+ 	padding: 0; 
+	}
 
-html, body, div, h1, h2, h3, h4, h5, h6, p{
- margin: 0;
- padding: 0; 
-}
+	html{
+	max-width: 960px;
+	margin:2.083333%/*20px*/ auto;
+	/*background-color: red;*/
+	font: .8125em/1 verdana, arial, sans-serif;
+	}
 
-html{
-max-width: 960px;
-margin:2.083333%/*20px*/ auto;
-/*background-color: red;*/
-font: .8125em/1 verdana, arial, sans-serif;
-}
-
-#wrapper{
-background-image: url('../images/wrapper.png'); 
-margin: 0 auto;
-width: 100%;
-margin: 0.520833%/*5px*/;
-padding: 0.520833%/*5px*/;
-}
+	#wrapper{
+	background-image: url('../images/wrapper.png'); 
+	margin: 0 auto;
+	width: 100%;
+	margin: 0.520833%/*5px*/;
+	padding: 0.520833%/*5px*/;
+	/*-ms-box-shadow: 1px 1px 4px 2px #222;
+	-moz-box-shadow: 1px 1px 4px 2px #222;
+	-webkit-box-shadow: 1px 1px 4px 2px #222;*/
+	}
 
 /*----- Header -----*/
-header{
-overflow: hidden;
-width: 100%;
-background-color:#F0EAD6;
-/*margin: 0 0 2.083333% 0;*/
-/*padding: 2.2em 0 0.95em 0;*/
-}
+	header{
+	overflow: hidden;
+	width: 100%;
+	background-color:#F0EAD6;
+	/*margin: 0 0 2.083333% 0;*/
+	/*padding: 2.2em 0 0.95em 0;*/
+	}
 
-#logo{
-background-color:#F0EAD6;
-}
+	#logo{
+	background-color:#F0EAD6;
+	}
 
 /*----- Navigation -----*/
 
-#nav ul{
-/*margin:244px 2px 0;*/
-/*height:100%;*/
-overflow:hidden;
-color:#8C001A;
-background-color:#91614E;
-border:#F0EAD6;
-}
+	#nav ul{
+	/*margin:244px 2px 0;*/
+	/*height:100%;*/
+	overflow:hidden;
+	color:#8C001A;
+	background-color:#91614E;
+	border:#F0EAD6;
+	}
 
-#nav ul li{
-float: left;
-margin: 4px;
-text-transform:uppercase;
-padding: 4px;
-}
+	#nav ul li{
+	float: left;
+	margin: 4px;
+	text-transform:uppercase;
+	padding: 4px;
+	}
 
-#nav ul li a{
-text-decoration:none;
-color:#F6FBFC;
-display:block;
-height:3.125%;/*30px*/
-line-height:2.308em;
-}
+	#nav ul li a{
+	text-decoration:none;
+	color:#F6FBFC;
+	display:block;
+	height:3.125%;/*30px*/
+	line-height:2.308em;
+	}
 
-#nav ul li a:hover{ 
-color:#8C001A;
-}
+	#nav ul li a:hover{ 
+	color:#8C001A;
+	}
 
-#nav ul li a.active{
-color:#8C001A;
-}
+	/*#nav ul li a.active{
+	color:#8C001A;
+	}*/
+	
+	#nav a.current{
+	background-color: #8C001A;
+	}
 
 /*--- Content ---*/
 
-h1, h2, h3, h4, h5, h6, p{
-text-align: left;
-margin:1em;
-margin-bottom:1em;
-}
+	h1, h2, h3, h4, h5, h6, p{
+	text-align: left;
+	margin:1em;
+	margin-bottom:1em;
+	}
 
-li{
-list-style-type: none;
-}
+	li{
+	list-style-type: none;
+	}
 
-aside div{
-width:200px;
-margin:5px;
-padding:5px;
-background-color:#91614E;
-border:#F0EAD6;
--moz-border-radius: 10px;
-border-radius: 10px;
-}
+	aside div{
+	width:200px;
+	margin:5px;
+	padding:5px;
+	background-color:#91614E;
+	border:#F0EAD6;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	}
+	
+	.secondary{
+	float: left;
+	}
+	
+	#tabs{
+	clear: both;
+	}
+	
 
-.main_action{
-float: right;
-}
+	.main_action{
+	float: right;
+	}
+	
+	.info{
+	clear: right;
+	float: left;
+	}
 
+	img{
+	margin: 0;
+	padding: 0;
+	}
 
-.info{
-clear: right;
-float: left;
-}
-
+	.gallery /*img*/{
+	max-width: 100%;
+	display: block;
+	padding: 6px;
+	margin: 9px;
+	float: left;
+	background-color: #fff;
+	box-shadow: 1px 1px 4px 2px #222;
+	-ms-box-shadow: 1px 1px 4px 2px #222;
+	-moz-box-shadow: 1px 1px 4px 2px #222;
+	-webkit-box-shadow: 1px 1px 4px 2px #222;
+	}
+	
 /*--- form ---*/
 
-form input:focus, form select:focus, form textarea:focus{
-background: #ffd;
-}
+	form input:focus, form select:focus, form textarea:focus{
+	background: #ffd;
+	}
 
-form select{
-width: 160px;
-}
+	form select{
+	width: 160px;
+	}
 
-form select option{
-padding: 0 6px 0 4px;
-}
+	form select option{
+	padding: 0 6px 0 4px;
+	}
 
-
-form input, form select, form textarea{
+	form input, form select, form textarea{
 	width: 254px;
 	padding: 2px;
 	margin-bottom: 20px;
@@ -128,27 +159,27 @@ form input, form select, form textarea{
 	border-bottom: 1px solid #ddd;
 	font-family: Verdana, sans-serif;
 	font-size: .9em;
-}
+	}
 
-form label{
-display: block;
-float: left;
-padding: 5px;
-}
+	form label{
+	display: block;
+	float: left;
+	padding: 5px;
+	}
 
-/*input, select, textarea{ 
-margin:0; 
-padding:0;   
-}*/
+	/*input, select, textarea{ 
+	margin:0; 
+	padding:0;   
+	}*/
 
-footer{
-clear: both;
-padding-bottom: 1.041667%; /*10px;*/
-font-size: .9em;
-text-align: center;
-background-color:#F0EAD6;
-}
-
+	footer{
+	clear: both;
+	padding-bottom: 1.041667%; /*10px;*/
+	font-size: .9em;
+	text-align: center;
+	background-color:#F0EAD6;
+	}
+	
 /*----- Media Queries -----*/
 
 /* Tablet Portrait size to standard 960 (device and browsers)*/
