@@ -87,8 +87,8 @@
 	li{
 	list-style-type: none;
 	}
-
-	aside div{
+	
+	#secondary .info{
 	width:200px;
 	margin:5px;
 	padding:5px;
@@ -98,7 +98,16 @@
 	border-radius: 10px;
 	}
 	
-	.secondary{
+	#secondary{
+	float: left;
+	}
+	
+ .main_action{
+	float: right;
+	}
+	
+	.info{
+	clear: right;
 	float: left;
 	}
 	
@@ -115,55 +124,42 @@
 	clear: both;
 	}
 	
-
-	.main_action{
-	float: right;
-	}
-	
-	.info{
-	clear: right;
-	float: left;
-	}
-
 	img{
 	margin: 0;
 	padding: 0;
 	}
 
-	.gallery {
+	.gallery{
 	max-width: 100%;
 	display: block;
 	padding: 6px;
 	margin: 9px;
 	float: left;
-	background-color: #fff;
+	background-color: #8C001A;
 	}
 	
-/*--- form ---*/
+	.gallery h3{
+	color: #fff;
+	}
+	
+	/*--- form ---*/
+	
 	fieldset {
 	border: none;
-
-	/*label {
-  float:left;
-  width:25%;
-  margin-right:0.5em;
-  padding-top:0.2em;
-  text-align:right;
-  font-weight:bold;
-  }*/
-
-	form input:focus, form select:focus, form textarea:focus{
-	background: #ffd;
 	}
-
+	
 	form select{
 	width: 160px;
 	}
-
+	
+	form input:focus, form select:focus, form textarea:focus{
+	background: #ffd;
+	}
+	
 	form select option{
 	padding: 0 6px 0 4px;
 	}
-
+	
 	form input, form select, form textarea{
 	width: 254px;
 	padding: 2px;
@@ -173,22 +169,16 @@
 	border-top: 1px solid #aaa;
 	border-right: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
-	font-family: Verdana, sans-serif;
 	font-size: .9em;
 	}
-
+	
 	form label{
 	display: block;
 	float: left;
 	padding: 5px;
 	}
 
-	/*input, select, textarea{ 
-	margin:0; 
-	padding:0;   
-	}*/
-
-	footer{
+	#footer{
 	clear: both;
 	padding-bottom: 1.041667%; /*10px;*/
 	font-size: .9em;
