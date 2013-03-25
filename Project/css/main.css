@@ -98,13 +98,16 @@
 	border-radius: 10px;
 	}
 	
+	.secondary{
+	float: left;
+	}
+	
 	.first{
 	width: 600px;
 	float: left;
 	}
 	
-	
-	.secondary{
+	.list{
 	float: right;
 	}
 	
