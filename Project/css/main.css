@@ -137,13 +137,10 @@
 	}
 	
 /*--- form ---*/
+	fieldset {
+	border: none;
 
-	/*fieldset {
-  padding: 1em;
-  font:80%/1 sans-serif;
-  }
-  
-	label {
+	/*label {
   float:left;
   width:25%;
   margin-right:0.5em;
