@@ -7,14 +7,15 @@
 		<link rel="stylesheet" href="css/skeleton.css">
 		<link rel="stylesheet" href="css/layout.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<link rel="stylesheet" href="flexslider.css" type="text/css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script src="jquery.flexslider.js"></script>
-	<script type="text/javascript" charset="utf-8">
-  $(window).load(function() {
-    $('.flexslider').flexslider();
-  });
-</script>
+		
+		
+		<!-- bjqs.css contains the *essential* css needed for the slider to work -->
+    <link rel="stylesheet" href="css/bjqs.css">
+
+    <!-- load jQuery and the plugin -->
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
+		
 	</head>
 	<body>
 		<div id="wrapper">
@@ -32,8 +33,46 @@
 			</header>
 				<article> 
 					<h1>Welcome to Signs By Design!</h1>
-					<div class="flexslider">
- 					 <ul class="slides">
+					
+						<div class="row">
+		<div id="banner-slide">
+
+        <!-- start Basic Jquery Slider -->
+        <ul class="bjqs">
+          <li><a href="nonilluminatedsign.html"><img src="" alt="Picture of sign done by signs by design"></a></li>
+          <li><a href="illuminatedsign.html"><img src="" alt="Picture of sign done by signs by design"></a></li>
+          <li><a href="illuminatedsign.html"><img src="" alt="Picture of sign done by signs by design"></a></li>
+        </ul>
+        <!-- end Basic jQuery Slider -->
+
+      </div>
+      <!-- End outer wrapper -->
+      
+      <!-- attach the plug-in to the slider parent element and adjust the settings as required -->
+      <script class="secret-source">
+        jQuery(document).ready(function($) {
+          
+          $('#banner-slide').bjqs({
+            animtype      : 'slide',
+            height        : 400,
+            width         : 1140,
+            responsive    : true,
+            randomstart   : true
+          });
+          
+        });
+      </script>
+
+    </div>
+					
+					
+					
+						<!-- 	<div class="camera_wrap">
+   						 	<div data-src="http://www.signsbydesign.biz/images/home/formedLetters.jpg" alt="Picture of sign done by signs bby design"></div>
+   							<div data-src="http://www.signsbydesign.biz/images/home/channelLetterNeon.jpg"></div>
+    						<div data-src="http://www.signsbydesign.biz/images/home/channelLetterNeon.jpg"></div>
+							</div>
+ 			 <ul class="slides">
    					 <li>
       					<img src="http://www.signsbydesign.biz/images/home/formedLetters.jpg" alt="Picture of sign done by signs bby design"  />
    					 </li>
@@ -44,8 +83,8 @@
       					<img src="http://www.signsbydesign.biz/images/home/channelLetterNeon.jpg" />
    					 </li>
   				</ul>
-				</div>
-				<!-- This is the logo 	<p><img src="http://www.signsbydesign.biz/images/home/formedLetters.jpg" alt="Picture of sign done by signs bby design" /></p>-->
+				</div> -->	
+				<!-- 	<p><img src="http://www.signsbydesign.biz/images/home/formedLetters.jpg" alt="Picture of sign done by signs bby design" /></p>-->
 					<p>At Signs By Design we can install or remove all types of signage.We havean experienced staff with the necessary equipment 
 to make sure your job is installed properly. Some of our equipment includes crane trucks, trailers, welders and augers.We remove, install and service signs for both local clients and national accounts.Our installation service includes surveys, permitting and installations.Besides installation, we also service, repair, and refurbish existing signage and lights.Our experienced staff can do whatever is required for 
 your particular job.</p> 

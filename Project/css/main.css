@@ -74,7 +74,8 @@
 	}*/
 	
 	#nav a.current{
-	background-color: #8C001A;
+	color: #8C001A;
+	text-decoration: underline;
 	}
 
 /*--- Content ---*/
@@ -144,6 +145,28 @@
 	margin: 0;
 	/*border-bottom: 1px solid #fff;*/
 	}
+	
+	/*---Slider----*/
+	
+	ol.bjqs-markers li a{
+  display: inline-block;
+  text-indent: -9999em;
+	}
+
+	.bjqs-prev {
+	text-indent: -9999em;
+	}
+
+	.bjqs-next {
+	text-indent: -9999em;
+	}
+
+	#banner-slide {
+	margin-top: 0px;
+	}
+
+	
+	
 	
 	/*--- form ---*/
 	
