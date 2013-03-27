@@ -8,6 +8,7 @@
 	}
 
 	html{
+	background-image: url('../images/wrapper.png'); 
 	max-width: 960px;
 	margin:2.083333%/*20px*/ auto;
 	/*background-color: red;*/
@@ -15,7 +16,7 @@
 	}
 
 	#wrapper{
-	background-image: url('../images/wrapper.png'); 
+	background:#FFF8E7;
 	margin: 0 auto;
 	width: 100%;
 	margin: 0.520833%/*5px*/;
@@ -29,13 +30,13 @@
 	header{
 	overflow: hidden;
 	width: 100%;
-	background-color:#F0EAD6;
+	/*background-color:#F0EAD6;*/
 	/*margin: 0 0 2.083333% 0;*/
 	/*padding: 2.2em 0 0.95em 0;*/
 	}
 
 	#logo{
-	background-color:#F0EAD6;
+	/*background-color:#F0EAD6;*/
 	}
 
 /*----- Navigation -----*/
@@ -146,7 +147,58 @@
 	
 	/*--- form ---*/
 	
-	fieldset {
+	fieldset{
+	border:none;
+	/*background:#FFF8E7;*/
+	margin:0;
+	padding:20px;
+	}
+
+	form{
+	/*margin:0 auto;*/
+	width:400px;
+	padding:14px;
+	}
+
+	label{
+	display:block;
+	font-weight:bold;
+	text-align:right;
+	width:140px;
+	float:left;
+	}
+
+	input{
+	float:left;
+	font-size:12px;
+	padding:4px 2px;
+	border:solid 1px #8C001A;
+	width:200px;
+	margin:2px 0 20px 10px;
+	}
+
+	.form_heading{
+	text-align: center;
+	}
+	
+	input[type='submit']{
+	width: auto;
+	padding: 9px 15px;
+	background: #8C001A;
+	border: 0;
+	font-size: 11px;
+	color: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	clear:left;
+	/*height:30px;
+	line-height:30px;*/
+	}
+
+	input[type="text"]:focus{
+	background-color:#F0EAD6;
+	}
+	/*fieldset {
 	border: none;
 	}
 	
@@ -178,7 +230,7 @@
 	display: block;
 	float: left;
 	padding: 5px;
-	}
+	}*/
 
 	#footer{
 	clear: both;
